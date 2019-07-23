@@ -5,42 +5,6 @@ Exo 1
     Afficher leur contenu de sorte qu'on puisse lire sur le navigateur "Bonjour prenom, enfant de la famille nom ayant atteint de level age !".
 -->
 <?php
-
-
-$a=5;
-$b="super timor";
-
-echo $a;
-echo "//";
-echo $b;
-echo "//";
-echo ($a===$b);
-echo "//";
-var_dump($a===$b);
-echo "//";
-if ($a==$b)
-{
-	echo "OK";	
-}
-echo "//";
-if ($a=$b)
-{
-	echo "OK";	
-}
-echo "//";
-echo ($a==$b);
-echo "//";
-var_dump($a==$b);
-echo "//";
-var_dump($a=$b);
-echo "//";
-echo $a;
-echo "//";
-echo $b;
-echo "//";
-
-
-
 $nom = "toi";
 $prenom = "moi";
 $age = 5;

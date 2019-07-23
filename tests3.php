@@ -5,42 +5,6 @@ Exo 1
     Afficher leur contenu de sorte qu'on puisse lire sur le navigateur "Bonjour prenom, enfant de la famille nom ayant atteint de level age !".
 -->
 <?php
-
-
-$a=5;
-$b="super timor";
-
-echo $a;
-echo "//";
-echo $b;
-echo "//";
-echo ($a===$b);
-echo "//";
-var_dump($a===$b);
-echo "//";
-if ($a==$b)
-{
-	echo "OK";	
-}
-echo "//";
-if ($a=$b)
-{
-	echo "OK";	
-}
-echo "//";
-echo ($a==$b);
-echo "//";
-var_dump($a==$b);
-echo "//";
-var_dump($a=$b);
-echo "//";
-echo $a;
-echo "//";
-echo $b;
-echo "//";
-
-
-
 $nom = "toi";
 $prenom = "moi";
 $age = 5;
@@ -151,21 +115,7 @@ function somme($n1=0,$n2=1,$n3=-1)
     <?php echo display("Nazareth ","Jésus",33);
     echo testGenre(26,"Homme");?>
     <br>
-    <?php  $mois = ["janvier", "février", "mars", "avril",
-    "mai","juin","juillet","aout","septembre","octobre","novembre","décembre"];
-    $testTableau=[01=>"Ain",03=>"Allier",07=>"Ardèche",15=>"Cantal",
-    26=>"Drôme",38=>"Isère",42=>"Loire",43=>"Haute-Loire",63=>"Puy de Dome"
-    ,69=>"Rhône",73=>"Savoie",74=>"Haute-Savoie"];
     
-    echo $mois[2];echo $mois[5];
-    echo $testTableau[69]; 
-    echo $testTableau[01];
-    echo $testTableau["74"];
-    $testTableau[57]="Metz";
-    foreach($testTableau as $key => $value) 
-    {
-        echo "Le departement $value a le numéro $key\n";
-    }?>
     </section>
 </body>
 </html>
